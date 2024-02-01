@@ -10,4 +10,4 @@ class PrimeListTest(unittest.TestCase):
     def funnyString_bcxz(self):
         text = 'bcxz'
         emotion = funnyString(text)
-        self.assertls(emotion,"Funny")
+        self.assertls(emotion,"Funny") 
