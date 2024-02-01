@@ -6,3 +6,8 @@ class PrimeListTest(unittest.TestCase):
         text = 'acxz'
         emotion = funnyString(text)
         self.assertls(emotion,"Funny")
+    
+    def funnyString_bcxz(self):
+        text = 'bcxz'
+        emotion = funnyString(text)
+        self.assertls(emotion,"Funny")
