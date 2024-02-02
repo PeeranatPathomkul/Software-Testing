@@ -1,13 +1,29 @@
-from funny_string.funny_string import funnyString
+from software_testing.funny_string.funny_string import funny_String
 import unittest
 
-class PrimeListTest(unittest.TestCase):
-    def funnyString(self):
+class Funny_or_not(unittest.TestCase):
+    def test_give_acxz(self):
         text = 'acxz'
-        emotion = funnyString(text)
-        self.assertls(emotion,"Funny")
+        emotion = funny_String(text)
+        self.assertEqual(emotion,'Funny')
     
-    def funnyString_bcxz(self):
+    def test_give_bcxz(self):
         text = 'bcxz'
-        emotion = funnyString(text)
-        self.assertls(emotion,"Funny") 
+        emotion = funny_String(text)
+        self.assertEqual(emotion,'Funny') 
+
+    def test_give_rrrr(self):
+        text = 'rrrr'
+        emotion = funny_String(text)
+        self.assertEqual(emotion,'Funny')
+
+    def test_give_focus(self):
+        text = 'focus'
+        emotion = funny_String(text)
+        self.assertEqual(emotion,'Not Funny')
+    
+    def test_give_Peeranat(self):
+        text = 'Peeranat'
+        emotion = funny_String(text)
+        self.assertEqual(emotion,'Funny')
+
