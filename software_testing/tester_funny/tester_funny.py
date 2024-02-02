@@ -10,7 +10,7 @@ class Funny_or_not(unittest.TestCase):
     def test_give_bcxz(self):
         text = 'bcxz'
         emotion = funny_String(text)
-        self.assertEqual(emotion,'Funny') 
+        self.assertEqual(emotion,'Not Funny') 
 
     def test_give_rrrr(self):
         text = 'rrrr'
@@ -25,5 +25,16 @@ class Funny_or_not(unittest.TestCase):
     def test_give_Peeranat(self):
         text = 'Peeranat'
         emotion = funny_String(text)
-        self.assertEqual(emotion,'Funny')
+        self.assertEqual(emotion,'Not Funny')
 
+    def test_give_23422(self):
+        text = '23422'
+        emotion = funny_String(text)
+        self.assertEqual(emotion,'Not Funny')
+    
+    def test_give_x_y(self):
+        text = 'x*y = 2'
+        emotion = funny_String(text)
+        self.assertEqual(emotion,'Not Funny')
+
+    

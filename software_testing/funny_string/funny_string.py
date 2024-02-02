@@ -1,6 +1,12 @@
 def funny_String(s):
-    s_reverse=s[::-1]
-    for i in range(len(s)-1):
-        if abs(ord(s[i])-ord(s[i+1])) ==abs(ord(s_reverse[i])-ord(s_reverse[i+1])):
-            return "Funny"
-    return "Not Funny"
+    r=s[::-1]
+    s_list = []
+    r_list = []
+    for i in range(0,len(r)-1):
+        s_list.append(abs(ord(s[i])-ord(s[i+1])))  
+        r_list.append(abs(ord(r[i])-ord(r[i+1])))
+    if s_list == r_list : 
+        return 'Funny'
+    else:
+        return 'Not Funny'
+        
