@@ -11,3 +11,8 @@ class Alter(unittest.TestCase):
         text = 'focus'
         num_of_alter_char = alternating_Characters(text)
         self.assertIs(num_of_alter_char,3)
+
+    def alter_Peeranat(self):
+        text = 'Peeranat'
+        num_of_alter_char = alternating_Characters(text)
+        self.assertIs(num_of_alter_char,3)
