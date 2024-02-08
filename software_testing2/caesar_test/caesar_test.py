@@ -6,4 +6,4 @@ class CaesarTest(unittest.TestCase):
         text = 'AAAA'
         num_k = 5
         result = caesarCipher(text,num_k)
-        self.assertEqual(result,'HHHH')
+        self.assertEqual(result,'FFFF')
