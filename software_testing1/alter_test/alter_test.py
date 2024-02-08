@@ -17,3 +17,5 @@ class AlterTest(unittest.TestCase):
         num_of_alter_char = alternatingChar(text)
         self.assertEqual(num_of_alter_char, '1')
 
+    
+
