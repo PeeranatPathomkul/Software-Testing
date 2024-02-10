@@ -14,7 +14,3 @@ def caesarCipher(s, k):
         else:
             after += i
     return after
-
-# s = 'middle-Outz'
-# k = 2
-# print(caesarCipher(s,k))
