@@ -1,5 +1,4 @@
 def permute(s):
-    '''function ไว้แยกว่ามีตัวไหนคู่กันบ้าง'''
     result = []
     hmap = {}
     
@@ -31,7 +30,3 @@ def alternate(s):
             
     return maxLen
 
-
-s = 'beabeefeab'
-print(permute(s))
-print(alternate(s))
