@@ -9,4 +9,6 @@ def funny_String(s):
         return 'Funny'
     else:
         return 'Not Funny'
-        
+
+x = '''AABBABABBBBBABBABABBBBABBABABABBABBABBBBAAABBBBBBBBBBBABBBBBBBABBBBBBBBBBBBABBABBBBAABBBBBAAAABBBBBB'''
+print(len(x))
